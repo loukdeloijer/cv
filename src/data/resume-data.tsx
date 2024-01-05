@@ -20,259 +20,161 @@ import {
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "Louk de Loijer",
+  initials: "L.H.R.",
+  location: "Amsterdam, The Netherlands",
+  locationLink: "https://www.google.com/maps/place/Amsterdam",
   about:
-    "Full Stack Engineer focused on building products with extra attention to detail",
-  summary:
-    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+    "Data & ML engineering consultant looking to transition into a ML engineering role.",
+  summary: "We live in the most interesting of times and I feel lucky to have studied Data Science and AI. After 1.5 years working as a data consultant, it is time to no longer stand on the sideline of AI development. With my passion for Large Language Models, Retrieval-Augmented-Generation, and AI Agents, I am excited to dive deep into developing Machine Learning and AI applications and help accelerate AI development.",
+  avatarUrl: "https://avatars.githubusercontent.com/u/59479119?s=400&u=798461131fd45bd5482b18f1661b1210d5febb25&v=4",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "loukdeloijer@gmail.com",
+    tel: "+31622010322",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/loukdeloijer",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/louk-de-loijer/",
         icon: LinkedInIcon,
-      },
-      {
-        name: "X",
-        url: "https://x.com/BartoszJarocki",
-        icon: XIcon,
-      },
+      }
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "Jheronimus Academy of Data Science",
+      degree: "Data Science & Entrepreneurship",
+      start: "2019",
+      end: "2021",
+      description: "Master Thesis awarded with an 8.0 and GPA of 7.6"
     },
+    {
+      school: "Tilburg University",
+      degree: "Bachelors Degree in International Business Administration",
+      start: "2015",
+      end: "2019",
+      description: "Master Thesis awarded with an 8.0"
+    }
   ],
   work: [
     {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: ["Remote"],
-      title: "Senior Full Stack Developer",
-      logo: ParabolLogo,
+      company: "Deloitte Risk Advisory",
+      link: "https://www2.deloitte.com/nl/nl/pages/risk/topics/data-and-responsible-insights.html?icid=nav2_data-and-responsible-insights",
+      badges: [],
+      title: "Consultant Responsible Data & Analytics",
+      start: "2022",
+      end: "Now ",
+      description:
+        "Within the Responsible Data & Analytics team I focus on Data engineering and Generative AI within the Financial Sector. Within client projects I am mainly responsible for performing analysis, developing scripts, stakeholder management, and client interviews and updates. Internally I have a leading role within the Generative AI team as AI developer."
+    },
+    {
+      company: "Squadra Machine Learning Company",
+      link: "https://machine-learning-company.nl/en/",
+      badges: [],
+      title: "Thesis Intern",
       start: "2021",
-      end: "2024",
+      end: "2022",
       description:
-        "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
+        "Thesis internship where I researched and finetuned zero-shot image and large language models such as CLIP and GPT-3 in generating product descriptions for e-commerce clients.",
     },
     {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
-      logo: ClevertechLogo,
-      start: "2015",
-      end: "2021",
-      description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, or AAA. Built live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
-    },
-    {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
+      company: "Jads MKB Datalab",
+      link: "https://www.jadsmkbdatalab.nl/",
       badges: [],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
+      title: "Freelance Data Consultant",
+      start: "2021",
+      end: "2022",
       description:
-        "Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress",
+        "I developed a housing monitor dashboard for a province and guided SMEs in workshops to work more data-driven.",
     },
     {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
+      company: "Jacobs Douwe Egberts",
+      link: "https://www.jacobsdouweegberts.com/",
       badges: [],
-      title: "C/C++ Developer",
-      logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description: "Creating and testing software for LTE base stations",
+      title: "Finance Operations Intern",
+      start: "2018",
+      end: "2019",
+      description: "6-month internship where I supported the Finance operations team with reporting and dashboarding.",
     },
   ],
   skills: [
-    "JavaScript",
-    "TypeScript",
-    "React/Next.js/Remix",
-    "Node.js",
-    "GraphQL",
-    "Relay",
-    "WebRTC",
+    "Python",
+    "SQL",
+    "Git",
+    "Azure",
+    "Powerpoint",
+    "Langchain (Python)",
+    "Chroma DB (Python)",
   ],
   projects: [
     {
-      title: "Consultly",
+      title: "Chat with PDF's",
       techStack: [
-        "Side Project",
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
+        "Deloitte",
+        "Langchain",
+        "Azure",
+        "OpenAI",
+        "Chroma"
       ],
-      description: "A platform to build and grow your online business",
-      logo: ConsultlyLogo,
-      link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
-      },
+      description: "Developed A Retrieval Augmented Generation system to connect LLM's to undisclosed documents.",
     },
     {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
+      title: "Data migration",
+      techStack: ["Deloitte", "SQL", "Python", "Jinja"],
       description:
-        "Browser extension that records everything happening in a web application",
-      logo: MonitoLogo,
-      link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
-      },
+        "Developed a data migration pipeline moving 1500 crucial and sensitive database objects for a public organization."
     },
     {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
+      title: "Data lineage analysis",
+      techStack: ["Deloitte", "Python", "SQL", "Regex"],
       description:
-        "My personal website and blog. Built with Next.js and Notion API",
-      logo: JarockiMeLogo,
-      link: {
-        label: "github.com",
-        href: "https://jarocki.me/",
-      },
+        "Developed a data lineage analysis to disentangle development and production database objects.",
     },
     {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
+      title: "Risk AI talent group",
+      techStack: ["Deloitte", "Python"],
       description:
-        "Minimalist calendars, habit trackers and planners generator",
-      logo: Minimal,
-      link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
-      },
+        "Developing AI proof-of-concepts within Deloitte Risk Advisory",
     },
     {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
+      title: "Finetuning gpt-3",
+      techStack: ["Thesis", "Python", "OpenAI"],
       description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
-      link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
-      },
+        "Researched the effect of finetuning (then) state-of-the-art gpt-3 to generate product descriptions",
     },
     {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
-      logo: YearProgressLogo,
-      link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
-      },
+      title: "Churn Prediction",
+      techStack: ["KPN", "Study project", "Python"],
+      description: "Developed a Churn prediction model for KPN in collaboration with Deloitte"
     },
     {
-      title: "Parabol",
+      title: "Editor @ Faces Online",
       techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
+        "Extra-curricular",
+        "Wordpress",
       ],
       description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
-      logo: ParabolLogo,
+        "Editor, responsible for interviewing and writing articles on finance and technology topics.",
       link: {
-        label: "github.com",
-        href: "https://parabol.co/",
+        label: "faces-online.nl",
+        href: "https://faces-online.nl/author/louk-de-loijer/",
       },
     },
     {
-      title: "Evercast",
+      title: "Treasurer @ Round 1",
       techStack: [
-        "Lead Frontend Developer",
-
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
+        "Extra-curricular",
       ],
       description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
-      logo: EvercastLogo,
+        "Initial co-founder in brainstorming phase of round-one. Quit to focus on study.",
       link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
+        label: "round one",
+        href: "https://www.roundone.ventures/about",
       },
-    },
-    {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
-      link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
-      },
-    },
-    {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Howdy is a place for you to join communities you care about",
-      logo: Howdy,
-      link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
-      },
-    },
-    {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
-      link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
-      },
-    },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
-    },
-    {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
-    },
+    }
   ],
 } as const;

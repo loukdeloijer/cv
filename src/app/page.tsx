@@ -19,9 +19,9 @@ export default function Page() {
     <main className="container relative mx-auto scroll-my-12 overflow-auto p-4 print:p-12 md:p-16">
       <section className="mx-auto w-full max-w-2xl space-y-8 bg-white print:space-y-6">
         <div className="flex items-center justify-between">
-          <div className="flex-1 space-y-1.5">
+          <div className="flex-1 space-y-3">
             <h1 className="text-2xl font-bold">{RESUME_DATA.name}</h1>
-            <p className="max-w-md text-pretty font-mono text-sm text-muted-foreground">
+            <p className="max-w-md text-pretty font-mono text-sm text-muted-foreground space-y-5">
               {RESUME_DATA.about}
             </p>
             <p className="max-w-md items-center text-pretty font-mono text-xs text-muted-foreground">
@@ -154,6 +154,7 @@ export default function Page() {
                   </div>
                 </CardHeader>
                 <CardContent className="mt-2">{education.degree}</CardContent>
+                <CardContent className="mt-2">{education.description}</CardContent>
               </Card>
             );
           })}
@@ -188,7 +189,7 @@ export default function Page() {
       <CommandMenu
         links={[
           {
-            url: RESUME_DATA.personalWebsiteUrl,
+            url: "no url",
             title: "Personal Website",
           },
           ...RESUME_DATA.contact.social.map((socialMediaLink) => ({
