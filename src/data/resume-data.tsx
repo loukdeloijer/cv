@@ -26,7 +26,7 @@ export const RESUME_DATA = {
   locationLink: "https://www.google.com/maps/place/Amsterdam",
   about:
     "Data & ML engineering consultant looking to transition into a ML engineering role.",
-  summary: "We live in the most interesting of times and I feel lucky to have studied Data Science and AI. After 1.5 years working as a data consultant, it is time to no longer stand on the sideline of AI development. With my passion for Large Language Models, Retrieval-Augmented-Generation, and AI Agents, I am excited to dive deep into developing Machine Learning and AI applications and help accelerate AI development.",
+  summary: "We live in very interesting times in terms of AI development and I feel lucky to have studied Data Science. After 1.5 years working as a data consultant, it is time to no longer stand on the sideline of AI development. With my passion for Large Language Models, Retrieval-Augmented-Generation, and AI Agents, I am excited to dive deep into developing Machine Learning and AI applications, follow and extend my curiosity, and continue my learning journey.",
   avatarUrl: "https://avatars.githubusercontent.com/u/59479119?s=400&u=798461131fd45bd5482b18f1661b1210d5febb25&v=4",
   contact: {
     email: "loukdeloijer@gmail.com",
