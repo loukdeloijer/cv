@@ -25,8 +25,8 @@ export const RESUME_DATA = {
   location: "Amsterdam, The Netherlands",
   locationLink: "https://www.google.com/maps/place/Amsterdam",
   about:
-    "Data & ML engineering consultant looking to transition into a ML engineering role.",
-  summary: "We live in very interesting times in terms of AI development and I feel lucky to have studied Data Science. After 1.5 years working as a data consultant, it is time to no longer stand on the sideline of AI development. With my passion for Large Language Models, Retrieval-Augmented-Generation, and AI Agents, I am excited to dive deep into developing Machine Learning and AI applications, follow and extend my curiosity, and continue my learning journey.",
+    "Data engineering consultant looking to transition into a ML engineering role.",
+  summary: "We're in an era of fascinating AI advancements, and having studied data science puts me in the fortunate position to contribute to this. With one and a half years of experience as a data consultant, focusing on the practical applications of AI, my next goal is to immerse myself in AI development and work on the development of full-scale machine learning applications. Driven by my enthusiasm for Large Language Models, Retrieval-Augmented Generation, and AI Agents, I'm looking forward to pursue my curiosity further and continue my learning journey.",
   avatarUrl: "https://avatars.githubusercontent.com/u/59479119?s=400&u=798461131fd45bd5482b18f1661b1210d5febb25&v=4",
   contact: {
     email: "loukdeloijer@gmail.com",
@@ -69,7 +69,7 @@ export const RESUME_DATA = {
       start: "2022",
       end: "Now ",
       description:
-        "Within the Responsible Data & Analytics team I focus on Data engineering and Generative AI within the Financial Sector. Within client projects I am mainly responsible for performing analysis, developing scripts, stakeholder management, and client interviews and updates. Internally I have a leading role within the Generative AI team as AI developer."
+        "Within the Responsible Data & Analytics team I focus on data engineering and Generative AI mostly within the financial sector. On client projects I am responsible for performing analysis, developing scripts, stakeholder management, and client interviews and updates. Internally I have a leading role within the Generative AI team as AI developer."
     },
     {
       company: "Squadra Machine Learning Company",
@@ -129,10 +129,10 @@ export const RESUME_DATA = {
         "Developed a data migration pipeline moving 1500 crucial and sensitive database objects for a public organization."
     },
     {
-      title: "Data lineage analysis",
+      title: "Data lineage tool",
       techStack: ["Deloitte", "Python", "SQL", "Regex"],
       description:
-        "Developed a data lineage analysis to disentangle development and production database objects.",
+        "Developed a data lineage tool to disentangle development and production database objects.",
     },
     {
       title: "Risk AI talent group",
@@ -149,28 +149,28 @@ export const RESUME_DATA = {
     {
       title: "Churn Prediction",
       techStack: ["KPN", "Study project", "Python"],
-      description: "Developed a Churn prediction model for KPN in collaboration with Deloitte"
+      description: "Developed a churn prediction model for KPN in collaboration with Deloitte"
     },
     {
-      title: "Editor @ Faces Online",
+      title: "Editor",
       techStack: [
         "Extra-curricular",
         "Wordpress",
       ],
       description:
-        "Editor, responsible for interviewing and writing articles on finance and technology topics.",
+        "Editor at Faces online, a student run newsletter. Responsible for interviewing and writing articles on finance and technology topics.",
       link: {
         label: "faces-online.nl",
         href: "https://faces-online.nl/author/louk-de-loijer/",
       },
     },
     {
-      title: "Treasurer @ Round 1",
+      title: "Treasurer",
       techStack: [
-        "Extra-curricular",
+        "Extra-curricular", "Round 1"
       ],
       description:
-        "Initial co-founder in brainstorming phase of round-one. Quit to focus on study.",
+        "Initial co-founder in brainstorming phase of round-one, a student VC. Quit to focus on study.",
       link: {
         label: "round one",
         href: "https://www.roundone.ventures/about",
